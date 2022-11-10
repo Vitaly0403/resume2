@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Vitalii Babikov, cv, resume">
+    <meta name="description" content="Это сайт-резюме Бабикова Виталия Олеговича">
+    <title>Vitalii resume</title>
+    <link rel="stylesheet" href="02_selectors.css">
+    
+</head>
+<body>
+    <div class="conteiner">
+        <div class="info">
+<img src="аватарка.jpg" alt="avatarka" class="avatar">
+<div class="info-text">
+  <h1> Я - Бабиков Виталий Олегович</h1>  
+
+<p> Я - родился в Ленинграде в 1991 году. Сейчас мне 31 год. В 2013 году закончил учебу в Санкт-Петербургском Государственном Горном Институте имени Плеханова. 
+    <br> Являюсь специалтстом в области разведки месторождений полезных ископаемых.</p>
+    <p> С детства обожаю играть в футбол и баскетбол. Люблю отдых на природе и рыбалку.</p>
+    <!-- <hr color="orange" size="3"> -->
+    <div>
+<h2> <em>Список социальных сетей:</em></h2>
+    <a href="https://web.telegram.org/k/#604102053" target="_blank">Telegramm</a> | <a href="https://www.youtube.com/channel/UCW3xu3jAH8dTwLiq_YmbPdg" target="_blank">YouTube</a>
+    </div>
+</div>
+</div>
+<br>
+<div class="card bg-yellow">
+<h2>Мои хобби</h2>
+<ol class="list">
+    <li><em>футбол</em> </li>
+    <li><em>баскетбол</em></li>
+    <li><em>шахматы</em></li>
+    <li><em>рыбалка</em></li>
+    <li><em>путешествия</em></li>
+    </ol>
+</div>
+<div class="card bg-green">
+<h2>Опыт работы</h2>
+<table class="table">
+    <!-- <thead>
+        <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+        </tr>
+    </thead> -->
+    <tbody>
+    <tr>
+        <td>ООО Геоизол</td>
+        <td>бурильщик</td>
+        <td>2013-2015</td>
+    </tr>
+    <tr>
+        <td>ООО Аэропроф</td>
+        <td>Монтажник систем вентиляции и кондиционирования</td>
+        <td>2015-2017</td>
+    </tr>
+    <tr>
+        <td>АО Бритиш Американ Тобакко-СПб</td>
+        <td>механик фильтроделательных машин</td>
+        <td>2017-2022</td>
+    </tr>
+    </tbody>
+</table>
+</div>
+<div class="card bg-red">
+    <h2>Мои проекты</h2>
+    <ul class="link-list">
+        <li><a href="#">Проект бурения скважины на воду для обеспечения ж/д станции Васькелово</a></li>
+        <li><a href="#">Проект бурения скважины во льду для забора проб воды озера Восток (Антарктида)</a></li>
+        <li><a href="#">Проект внедрения алмазного бурения отверстий для прокладки коммуникаций стадиона Газпром-Арена</a></li>
+    </ul>
+</div>
+
+
+
+<form class="form">
+    <h2>Связаться со мной</h2>
+    <div class="form-row">
+    <div class="form-group">
+    <label for="text">Ваше имя: </label>
+<input type="text" id="text" placeholder="Введите имя">
+</div>
+<div class="form-group">
+<label for="email">Ваш email: </label>
+<input type="email" id="email" placeholder="Введите email">
+</div>
+</div>
+<div class="form-group">
+    <label for="message">Ваше Сообщение: </label>
+    <textarea id="message" cols="30" rows="10" placeholder="Введите сообщение..."></textarea>
+    </div>
+    <button class="btn" type="submit">Отправить!</button>
+</form>
+</div>
+</body>
+
+</html>
